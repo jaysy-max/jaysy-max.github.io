@@ -1,1 +1,450 @@
-Hi
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car Info</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<style type="text/css">
+	.card-body {
+		padding: 0;
+	}
+</style>
+<body>
+	<div class="container">
+		<h1>Toyota Vios 1.3 Base MT</h1>
+		<div class="accordion" id="accordionExample">
+		  <div class="card">
+		    <div class="card-header bg-dark" id="headingOne">
+		      <h2 class="mb-0">
+		        <button id="summary" class="btn btn-link text-light" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><a href="#summary" class="text-light">
+		          Summary
+		        </a></button>
+		      </h2>
+		    </div>
+
+		    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+		      <div class="card-body">
+		      	<table class="table table-hover mb-0">
+		      		<tbody>
+		      		    <tr>
+		      		      <td><b>Name</b></td>
+		      		      <td>Toyota Vios 1.3 Base MT</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Body Type</b></td>
+		      		      <td>Sedan</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Price</b></td>
+		      		      <td>Php 662,000.00</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Transmission Type</b></td>
+		      		      <td>Manual</td>
+		      		    </tr>
+		      		</tbody>
+		      	</table>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="card">
+		    <div class="card-header bg-dark" id="headingTwo">
+		      <h2 class="mb-0">
+		        <button id="engine" class="btn btn-link collapsed text-light" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><a href="#engine" class="text-light">
+		          Engine
+		        </a></button>
+		      </h2>
+		    </div>
+		    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+		      <div class="card-body">
+		        <table class="table table-hover mb-0">
+		      		<tbody>
+		      		    <tr>
+		      		      <td><b>Engine Size</b></td>
+		      		      <td>1.3L</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Displacement</b></td>
+		      		      <td>1,329cc</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Number of Cylinders</b></td>
+		      		      <td>4</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Number of Valves</b></td>
+		      		      <td>16</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Transmission Category</b></td>
+		      		      <td>5-Speed Manual Transmission</td>
+		      		    </tr>
+		      		</tbody>
+		      	</table>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-header bg-dark" id="headingThree">
+		      <h2 class="mb-0">
+		        <button id="performance" class="btn btn-link collapsed text-light" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><a href="#performance" class="text-light">
+		          Performance
+		        </a></button>
+		      </h2>
+		    </div>
+		    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+		      <div class="card-body">
+		        <table class="table table-hover mb-0">
+		      		<tbody>
+		      		    <tr>
+		      		      <td><b>Drivetrain</b></td>
+		      		      <td>Front-Wheel Drive</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Max Output (HP)</b></td>
+		      		      <td>98 hp @ 6,000 rpm</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Max Torque (Nm)</b></td>
+		      		      <td>123 nm @ 4,000 rpm</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Acceleration Rate</b></td>
+		      		      <td>N/A</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Top Speed</b></td>
+		      		      <td>N/A</td>
+		      		    </tr>
+		      		</tbody>
+		      	</table>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-header bg-dark" id="headingFour">
+		      <h2 class="mb-0">
+		        <button id="economy" class="btn btn-link collapsed text-light" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><a href="#economy" class="text-light">
+		          Economy & Environment
+		        </a></button>
+		      </h2>
+		    </div>
+		    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+		      <div class="card-body">
+		        <table class="table table-hover mb-0">
+		      		<tbody>
+		      		    <tr>
+		      		      <td><b>Fuel Type</b></td>
+		      		      <td>Gasoline</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>CO2 Emission</b></td>
+		      		      <td>N/A</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Fuel Capacity</b></td>
+		      		      <td>42L</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Fuel Consumption</b></td>
+		      		      <td>N/A</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Range</b></td>
+		      		      <td>N/A</td>
+		      		    </tr>
+		      		</tbody>
+		      	</table>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-header bg-dark" id="headingFive">
+		      <h2 class="mb-0">
+		        <button id="dimensions" class="btn btn-link collapsed text-light" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><a href="#dimensions" class="text-light">
+		          Dimensions
+		        </a></button>
+		      </h2>
+		    </div>
+		    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+		      <div class="card-body">
+		        <table class="table table-hover mb-0">
+		      		<tbody>
+		      		    <tr>
+		      		      <td><b>Length</b></td>
+		      		      <td>4,425 mm</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Width</b></td>
+		      		      <td>1,730 mm</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Height</b></td>
+		      		      <td>1,475 mm</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Wheel Base</b></td>
+		      		      <td>2,550 mm</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Turning Circle</b></td>
+		      		      <td>10.2 m</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Ground Clearance</b></td>
+		      		      <td>140 mm</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Wading Depth</b></td>
+		      		      <td>N/A</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Trunk Capacity</b></td>
+		      		      <td>326 L</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Max Cargo</b></td>
+		      		      <td>326 L</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Number of Doors</b></td>
+		      		      <td>4</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Number of Seats</b></td>
+		      		      <td>5</td>
+		      		    </tr>
+		      		</tbody>
+		      	</table>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-header bg-dark" id="headingSix">
+		      <h2 class="mb-0">
+		        <button id="safety" class="btn btn-link collapsed text-light" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><a href="#safety" class="text-light">
+		          Safety & Security
+		        </a></button>
+		      </h2>
+		    </div>
+		    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+		      <div class="card-body">
+		        <table class="table table-hover mb-0">
+		      		<tbody>
+		      		    <tr>
+		      		      <td><b>Driver's Airbag</b></td>
+		      		      <td>Yes</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Front Passenger's Airbag</b></td>
+		      		      <td>Yes</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Side Airbag</b></td>
+		      		      <td>Yes</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Curtain Airbag</b></td>
+		      		      <td>Yes</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Knee Airbag</b></td>
+		      		      <td>Yes</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Electronic Brake Distribution</b></td>
+		      		      <td>Yes</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>ABS with Electronic Brake Force Distribution and Brake Assist</b></td>
+		      		      <td>Yes</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Immobilizer</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Security Alarm</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Stability Control</b></td>
+		      		      <td>Yes</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Electronic Door Locks</b></td>
+		      		      <td>Yes</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Speed Sensing Door Locks</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>ISOFIX</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Lane Departure Warning System</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Blind-Spot Detection System</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    
+		      		</tbody>
+		      	</table>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-header bg-dark" id="headingSeven">
+		      <h2 class="mb-0">
+		        <button id="features" class="btn btn-link collapsed text-light" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><a href="#features" class="text-light">
+		          Features
+		        </a></button>
+		      </h2>
+		    </div>
+		    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+		      <div class="card-body">
+		        <table class="table table-hover mb-0">
+		      		<tbody>
+		      		    <tr>
+		      		      <td><b>Cruise Control</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Front Parking Sensors</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Rear Parking Sensors</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Leather Upholstery</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Push Start Button</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Wheel Size</b></td>
+		      		      <td>14 in</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Wheel Metal Type</b></td>
+		      		      <td>Steel</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Airconditioning System</b></td>
+		      		      <td>Manual Cooler, Dial Type Control</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Entertainment System</b></td>
+		      		      <td>2 DIN with CD and MP3 via 2 Speakers</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Connectivity</b></td>
+		      		      <td>Aux, Bluetooth, and USB</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Navigation Ready</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Warranty</b></td>
+		      		      <td>3 Years (100,000km)</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Keyless Entry</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Roof Rack</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Sunroof</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Electric Adjustable Seats</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Power Steering</b></td>
+		      		      <td>Yes</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Power Windows</b></td>
+		      		      <td>Yes</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Power Outlet</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Steering Wheel Audio Control</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    
+		      		</tbody>
+		      	</table>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-header bg-dark" id="headingEight">
+		      <h2 class="mb-0">
+		        <button id="technology" class="btn btn-link collapsed text-light" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"><a href="#technology" class="text-light">
+		          Technology
+		        </a></button>
+		      </h2>
+		    </div>
+		    <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+		      <div class="card-body">
+		        <table class="table table-hover mb-0">
+		      		<tbody>
+		      		    <tr>
+		      		      <td><b>Active Park Assist</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Hill Start Assist</b></td>
+		      		      <td>Yes</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>AWD Modes</b></td>
+		      		      <td>N/A</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Tire Pressure Monitoring</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Heads-up Display</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Power Liftgate</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <td><b>Start-Stop System</b></td>
+		      		      <td>No</td>
+		      		    </tr>
+		      		</tbody>
+		      	</table>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
